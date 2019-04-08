@@ -1,5 +1,5 @@
 module.exports = (api, options) => {
-  if (process.env.NODE_ENV !== 'production') return
+  // if (process.env.NODE_ENV !== 'production') return
   // multi-compiler mode only can be used in production build
   const merge = require('webpack-merge')
   const oldResolveWebpackConfig = api.service.resolveWebpackConfig
